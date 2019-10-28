@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
 Button button;
-String nameChangeKeyaHakk;
+String nameChangeKeyaHakk0k;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
