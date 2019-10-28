@@ -10,14 +10,15 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
-Button button;
-String nameChangeKeyaHaokgasamember;
+    Button button;
+    String nameChangeKeyaHaokgasamember;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button=findViewById(R.id.button);
+        button = findViewById(R.id.button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceAsColor")
